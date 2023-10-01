@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form e input fields</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="cover"
+    style="background-image: linear-gradient(to left, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url('https://source.unsplash.com/random')">
+</body>
+<div class="logobar">
+    <img src="Logo.png" alt="Logo">
+</div>
+<form onsubmit="alert('Registrazione Inviata')">
+    <div class="container">
+        <input class="formbar" type="text" placeholder="Inserisci il tuo nome">
+    </div>
+    <div class="container">
+        <input class="formbar" type="text" placeholder="Inserisci il tuo cognome">
+    </div>
+    <div class="container">
+        <input class="formbar" type="date" placeholder="La tua data di nascita">
+    </div>
+    <div class="container">
+        <input class="formbar" type="email" placeholder="il tuo indirizzo email">
+    </div>
+
+    <div class="container">
+        <input class="formbar" type="password" placeholder="la tua password">
+    </div>
+
+    <div class="container">
+        <input class="formbar" type="number" placeholder="Il tuo numero di telefono">
+    </div>
+    <div class="container">
+        <fieldset class="formbar">
+            <legend><b>Scegli i tuoi gusti musicali</b></legend>
+
+            <input type="checkbox">
+            <label>ROCK</label>
+            <input type="checkbox">
+            <label>JAZZ</label>
+            <input type="checkbox">
+            <label>COUNTRY</label>
+            <input type="checkbox">
+            <label>TRAP</label>
+            <input type="checkbox">
+            <label>TECHNO</label>
+            <input type="checkbox">
+            <label>POP</label>
+            <input type="checkbox">
+            <label>CLASSICA</label>
+    </div>
+    </fieldset>
+    <div class="container">
+        <fieldset class="formbar">
+            <input type="radio">
+            <label> Acetto termini e condizioni</label>
+        </fieldset>
+    </div>
+    </div>
+    <div class="container">
+        <button class="submitbar" type="submit"> Invia form</button>
+    </div>
+</form>
+</body>
+
+</html>
